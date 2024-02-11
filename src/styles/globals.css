@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.carousel .control-dots .dot {
+  box-shadow: none !important;
+  background: #454545 !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+  background: #000 !important;
+}
+
+@media only screen and (max-width: 934px) {
+  .carousel-root {
+    width: 100% !important;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    display: none !important;
+  }
+}

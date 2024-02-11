@@ -16,12 +16,12 @@ const Nav = () => {
 
   const stores = [
     { name: "Oakville", route: "/store/oakville" },
-    { name: "Mississauga", route: "/store/mississauga" },
-    { name: "Guelph", route: "/store/guelph" },
-    { name: "Kingston", route: "/store/kingston" },
-    { name: "Thornhill", route: "/store/thornhill" },
     { name: "Toronto", route: "/store/toronto" },
+    { name: "Mississauga", route: "/store/mississauga" },
     { name: "Markham", route: "/store/markham" },
+    { name: "Guelph", route: "/store/guelph" },
+    { name: "Thornhill", route: "/store/thornhill" },
+    { name: "Kingston", route: "/store/kingston" },
   ];
 
   return (

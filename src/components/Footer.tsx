@@ -21,7 +21,9 @@ const Footer = () => {
         {/* Center Text - This will be truly centered on all screen sizes */}
         {/* Use flex-grow to ensure it takes up the available space */}
         <div className="flex-grow px-3 pb-0">
-          <p className="text-sm">Made with ❤️ in Ontario</p>
+          <p className="text-sm">
+            Made with ❤️ in Ontario - Coming to Calgary 👀
+          </p>
         </div>
 
         {/* Right Text - On small screens, this will be at the bottom */}
