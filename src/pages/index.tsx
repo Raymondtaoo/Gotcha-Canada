@@ -99,8 +99,8 @@ const Home: NextPage = () => {
           <div className="text-center p-4">
             <h1 className="text-6xl md:text-9xl font-semibold text-gray-800">
               Discover{" "}
-              <span className="text-yellow-400 md:text-gray-800">your</span>{" "}
-              <span className="md:text-yellow-400">Flavour</span>
+              <span className="text-yellow-400 xl:text-gray-800">your</span>{" "}
+              <span className="xl:text-yellow-400">Flavour</span>
             </h1>
             <p className="text-xl md:text-4xl text-gray-700 mt-4">
               Explore the sweet & tasty world of Gotcha bubble teas.

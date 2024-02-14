@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Testimonials from "@/components/Testimonials";
+import Image from "next/image";
 
 const About: React.FC = () => {
   return (
@@ -93,6 +94,36 @@ const About: React.FC = () => {
             <Testimonials />
           </div>
         </section>
+        {/* Franchise Section */}
+      <section className="bg-gray-100 pb-10 pt-3">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-3xl font-semibold mb-4">
+            Become a Gotcha Franchisee
+          </h2>
+          <div className="text-center pb-4">
+            <Image
+              src="/images/p5.webp" // Replace with the path to your image
+              alt="Master Franchise Owner"
+              width={200} // Adjust as needed
+              height={200} // Adjust as needed
+              className="rounded-full mx-auto" // Tailwind CSS for styling
+            />
+            <p className="text-lg mt-4">Master Franchise Owner</p>
+          </div>
+          <p className="text-gray-600 mb-8">
+            Start your journey with us and bring the Gotcha experience to your
+            community.
+          </p>
+          <a
+            href="https://gotchacanada.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white bg-green-600 py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300"
+          >
+            Learn More
+          </a>
+        </div>
+      </section>
         {/* Visit Us Section with a bright background */}
         <section className="py-8 px-4 bg-green-600 text-white text-center">
           <div className="container mx-auto">
