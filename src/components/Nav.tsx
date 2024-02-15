@@ -136,24 +136,36 @@ const Nav = () => {
         {/* Desktop menu */}
         <div className="hidden md:flex items-center space-x-4 ml-auto">
           <Link
+            onClick={() => {
+              setIsDropdownOpen(false);
+            }}
             href="/"
             className="text-secondary hover:text-green-700 cursor-pointer block py-2 px-4"
           >
             Home
           </Link>
           <Link
+            onClick={() => {
+              setIsDropdownOpen(false);
+            }}
             href="/about"
             className="text-secondary hover:text-green-700 cursor-pointer block py-2 px-4"
           >
             About
           </Link>
           <Link
+            onClick={() => {
+              setIsDropdownOpen(false);
+            }}
             href="/gallery"
             className="text-secondary hover:text-green-700 cursor-pointer block py-2 px-4"
           >
             Gallery
           </Link>
           <Link
+            onClick={() => {
+              setIsDropdownOpen(false);
+            }}
             href="/menu"
             className="text-secondary hover:text-green-700 cursor-pointer block py-2 px-4"
           >
