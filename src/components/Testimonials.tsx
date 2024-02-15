@@ -2,7 +2,14 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const testimonials = [
+interface Testimonial {
+  id: number;
+  name: string;
+  title: string;
+  content: string;
+}
+
+const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Jonathan Duong",
@@ -65,7 +72,7 @@ const testimonials = [
   }
 ];
 
-const Testimonials = () => {
+const Testimonials: React.FC = () => {
   return (
     <Carousel
       showArrows={true}
@@ -76,10 +83,10 @@ const Testimonials = () => {
       interval={6100}
       className="text-center mx-auto w-full lg:w-3/4 xl:w-1/2"
     >
-      {testimonials.map((testimonial) => (
+      {testimonials.map((testimonial: Testimonial) => (
         <div key={testimonial.id} className="my-8">
           <blockquote className="mx-auto text-lg font-medium text-gray-700 bg-white px-8 py-4 shadow rounded border border-gray-200">
-            <p className="leading-relaxed mb-6">"{testimonial.content}"</p>
+            <p className="leading-relaxed mb-6">&quot;{testimonial.content}&quot;</p>
             <cite className="not-italic font-bold">{testimonial.name}</cite>
             <span className="block text-sm text-gray-500">{testimonial.title}</span>
           </blockquote>
