@@ -24,7 +24,7 @@ const About: React.FC = () => {
             <div className="container mx-auto">
               <h1 className="text-6xl font-extrabold mb-3">About Gotcha</h1>
               <p className="text-2xl">
-                Experience the finest tea time with Gotcha, Canada's first
+                Experience the finest tea time with Gotcha, Canada&apos;s first
                 luxury bubble tea brand.
               </p>
             </div>
@@ -41,9 +41,9 @@ const About: React.FC = () => {
               Our Story
             </h2>
             <p className="text-xl">
-              Gotcha Bubble Tea began its journey with a vision to redefine 'tea
-              time' for tea enthusiasts. As the first luxury bubble tea
-              dispensary in Canada, we've become an international sensation.
+              Gotcha Bubble Tea began its journey with a vision to redefine &rsquo;tea
+              time&rsquo; for tea enthusiasts. As the first luxury bubble tea
+              dispensary in Canada, we&rsquo;ve become an international sensation.
             </p>
           </div>
           <div className="p-5"></div>
@@ -77,7 +77,7 @@ const About: React.FC = () => {
               Our Philosophy
             </h2>
             <p className="text-xl">
-              Gotcha Bubble Tea is more than just a tea brand; it's a
+              Gotcha Bubble Tea is more than just a tea brand; it&apos;s a
               destination for relaxation, socialization, and enjoying
               high-quality teas. Our locations welcome tea enthusiasts of all
               ages, offering a trendy and inclusive environment to enjoy our
