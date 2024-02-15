@@ -80,7 +80,7 @@ const Home: NextPage = () => {
           name="description"
           content="Welcome to Gotcha Canada - the best bubble tea in town!"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
 
       {/* Main Section with Bubble Tea Background */}
