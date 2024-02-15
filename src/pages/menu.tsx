@@ -26,6 +26,7 @@ const Menu: React.FC = () => {
             "Brown sugar boba fresh milk includes brown sugar tapioca",
           priceM: "7.0",
           priceL: "7.7",
+          image: "",
         },
         {
           name: "Brown Sugar Boba Chocolate",
@@ -721,8 +722,275 @@ const Menu: React.FC = () => {
         },
         {
           name: "Kiwi Fruit Tea",
+          description: "Fresh brewed jasmine green tea with kiwi flavour",
+          priceM: "N/A",
+          priceL: "7.0",
+        },
+      ],
+    },
+    {
+      title: "Macchiato Series",
+      items: [
+        {
+          name: "Strawberry Macchiato",
+          description: "Icy refreshing strawberry slush with cheese foam",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Mango Macchiato",
           description:
-            "Fresh brewed jasmine green tea with kiwi flavour",
+            "Icy refreshing mango slush with cheese foam (popping peach boba extra)",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Matcha Red Bean Macchiato",
+          description:
+            "Icy refreshing matcha red bean smoothie with cheese foam",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Kiwi Macchiato",
+          description: "Icy refreshing kiwi slush with cheese foam",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Cherry Macchiato",
+          description:
+            "Icy refreshing cherry smoothie with cheese foam (Grass jelly is extra)",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Peach Macchiato",
+          description:
+            "Icy refreshing peach slush with cheese foam (Popping boba is extra)",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Orange Macchiato",
+          description: "Icy refreshing orange slush with cheese foam",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Grape Macchiato",
+          description:
+            "Icy refreshing grape slush with cheese foam (Grass jelly is extra)",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+      ],
+    },
+    {
+      title: "Latte Series",
+      items: [
+        {
+          name: "Matcha Latte",
+          description: "Fresh milk with premium matcha powder layered on top",
+          priceM: "6.5",
+          priceL: "7.2",
+        },
+        {
+          name: "Black Tea Latte",
+          description:
+            "Fresh milk with freshly brewed Ceylon black tea layered on top (Brown sugar boba extra)",
+          priceM: "6.5",
+          priceL: "7.2",
+        },
+        {
+          name: "Winter Melon Latte",
+          description: "Fresh milk with winter melon flavour layered on top",
+          priceM: "6.5",
+          priceL: "7.2",
+        },
+        {
+          name: "Chocolate Latte",
+          description:
+            "Fresh milk with mixed chocolate drink layered on top (Brown sugar boba extra)",
+          priceM: "6.5",
+          priceL: "7.2",
+        },
+      ],
+    },
+    {
+      title: "Soda Tea Series",
+      items: [
+        {
+          name: "Strawberry Soda Tea",
+          description:
+            "Strawberry flavoured soda with blue butterfly tea layered on top, includes fresh strawberry",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Peach Soda Tea",
+          description:
+            "Peach flavoured soda with blue butterfly tea layered on top, includes sweet peach",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Lemon Soda Tea",
+          description:
+            "Lemon flavoured soda with blue butterfly tea layered on top, and a slice of lemon",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Passionfruit Soda Tea",
+          description:
+            "Passion fruit flavoured soda with blue butterfly tea layered on top",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Kiwi Soda Tea",
+          description:
+            "Kiwi flavoured soda with blue butterfly tea layered on top",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Mulberry Soda Tea",
+          description:
+            "Mulberry flavoured soda with blue butterfly tea layered on top",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Mint Soda Tea",
+          description:
+            "Minty flavoured soda with blue butterfly tea layered on top",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+        {
+          name: "Plum Soda Tea",
+          description:
+            "Dried plum flavoured soda with blue butterfly tea layered on top",
+          priceM: "N/A",
+          priceL: "7.5",
+        },
+      ],
+    },
+    {
+      title: "Smoothie Series",
+      items: [
+        {
+          name: "Taro Smoothie",
+          description: "Icy refreshing taro smoothie with REAL taro",
+          priceM: "6.5",
+          priceL: "7.2",
+        },
+        {
+          name: "Matcha Red Bean Smoothie",
+          description:
+            "Icy refreshing matcha red bean smoothie (Cheese Foam is extra)",
+          priceM: "6.5",
+          priceL: "7.2",
+        },
+        {
+          name: "Chocolate Caramel Smoothie",
+          description: "Icy refreshing chocolate caramel smoothie",
+          priceM: "6.5",
+          priceL: "7.2",
+        },
+        {
+          name: "Red Bean Smoothie",
+          description: "Icy refreshing red bean smoothie",
+          priceM: "6.5",
+          priceL: "7.2",
+        },
+        {
+          name: "Mango Parfait",
+          description:
+            "Coconut mango smoothie with mango chunks, pandan jelly and colourful jelly",
+          priceM: "N/A",
+          priceL: "7.8",
+        },
+      ],
+    },
+    {
+      title: "Brown Sugar Series",
+      items: [
+        {
+          name: "Cream Brulee Brown Sugar",
+          description: "Brown sugar boba fresh milk with cream brulee",
+          priceM: "7.8",
+          priceL: "8.5",
+        },
+        {
+          name: "Brown Sugar Boba Fresh Milk",
+          description: "Brown sugar boba fresh milk",
+          priceM: "7.0",
+          priceL: "7.7",
+        },
+        {
+          name: "Brown Sugar Boba Matcha",
+          description: "Brown sugar boba fresh milk with matcha",
+          priceM: "7.0",
+          priceL: "7.7",
+        },
+        {
+          name: "Brown Sugar Boba Chocolate",
+          description: "Brown sugar boba fresh milk with chocolate",
+          priceM: "7.0",
+          priceL: "7.7",
+        },
+        {
+          name: "Cheese Foam 1883 Brown Sugar Boba",
+          description: "",
+          priceM: "7.5",
+          priceL: "8.2",
+        },
+        {
+          name: "Cheese Foam Brown Sugar",
+          description: "Brown sugar boba fresh milk with cheese foam",
+          priceM: "7.5",
+          priceL: "8.2",
+        },
+        {
+          name: "Strawberry Pink",
+          description:
+            "Strawberry Pink with a hint of coconut flavor. Come with colorful jelly and crystal boba",
+          priceM: "N/A",
+          priceL: "8.2",
+        },
+      ],
+    },
+    {
+      title: "House Specials",
+      items: [
+        {
+          name: "Mango Sensation",
+          description:
+            "Mouthwatering Dessert come with a Mango base and our Signature Milk loaded with topping. Topping; Fresh Mango, Taro & Sweet Potato Balls, Palm Seed. Crystal Boba and Coconut Jelly",
+          priceM: "N/A",
+          priceL: "9.5",
+        },
+        {
+          name: "Purple Delight",
+          description:
+            "Mouthwatering Dessert come with a hint of Coconut Flavor and our Signature Milk loaded with topping. Topping; Fresh Taro and Red Bean, Brown Sugar Tapioca, Taro & Sweet Potato Balls, Palm Seed and Coconut Jelly",
+          priceM: "N/A",
+          priceL: "9.5",
+        },
+        {
+          name: "Mango Parfait",
+          description:
+            "Coconut mango smoothie with mango chunks, pandan jelly and colourful jelly",
+          priceM: "N/A",
+          priceL: "7.8",
+        },
+        {
+          name: "Lychee Oolong Tea",
+          description:
+            "Lychee Oolong Tea, come with lychee popping boba and fresh lychee",
           priceM: "N/A",
           priceL: "7.0",
         },
@@ -760,8 +1028,8 @@ const Menu: React.FC = () => {
                         src={item.image}
                         alt={item.name}
                         layout="fill"
-                        objectFit="cover" // This can be 'contain' as well, depending on your need
-                        className="rounded-t-lg" // This will round the top corners of the image
+                        objectFit="cover" // This can be 'contain' as well
+                        className="rounded-t-lg" 
                       />
                     </div>
                   )}

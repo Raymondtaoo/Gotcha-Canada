@@ -70,7 +70,7 @@ const Gallery: React.FC = () => {
           className="text-center bg-cover bg-center p-8"
           style={{ backgroundImage: "url(/images/gallery-banner.jpg)" }}
         >
-          <div className="bg-green-500 bg-opacity-40">
+          <div className="bg-banner">
             <h1 className="text-6xl font-extrabold text-white mb-3">
               Our Gallery
             </h1>

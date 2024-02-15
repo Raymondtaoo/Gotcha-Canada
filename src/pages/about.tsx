@@ -102,11 +102,11 @@ const About: React.FC = () => {
           </h2>
           <div className="text-center pb-4">
             <Image
-              src="/images/p5.webp" // Replace with the path to your image
+              src="/images/p5.webp" 
               alt="Master Franchise Owner"
-              width={200} // Adjust as needed
-              height={200} // Adjust as needed
-              className="rounded-full mx-auto" // Tailwind CSS for styling
+              width={200}
+              height={200}
+              className="rounded-full mx-auto" 
             />
             <p className="text-lg mt-4">Master Franchise Owner</p>
           </div>

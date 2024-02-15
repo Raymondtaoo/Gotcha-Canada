@@ -87,7 +87,7 @@ const Home: NextPage = () => {
       <main className="relative">
         {/* Background Image */}
         <Image
-          src="/images/b4.webp" // Replace with the path to your image
+          src="/images/b4.webp" 
           layout="fill"
           objectFit="cover"
           quality={100}

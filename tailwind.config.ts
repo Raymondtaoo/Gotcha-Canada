@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         primary: '#ffffff', // white
-        secondary: 'rgba(193,208,119,255)', // green
+        secondary: 'rgba(193,208,119,255)', // logo green
+        banner: 'rgba(163, 199, 109, 255)', // another green
       },
     },
   },

@@ -54,27 +54,43 @@ const Nav = () => {
         <div
           className={`md:hidden ${
             isMobileMenuOpen ? "flex" : "hidden"
-          } absolute top-full left-0 right-0 bg-primary p-2 shadow-md z-10`}
+          } absolute top-full left-0 right-0 bg-primary p-2 shadow-md z-[1000]`}
         >
           <Link
+            onClick={() => {
+              toggleMobileMenu();
+              setIsDropdownOpen(false);
+            }}
             href="/"
             className="text-sm text-secondary hover:text-green-700 block py-1 px-2"
           >
             Home
           </Link>
           <Link
+            onClick={() => {
+              toggleMobileMenu();
+              setIsDropdownOpen(false);
+            }}
             href="/about"
             className="text-sm text-secondary hover:text-green-700 block py-1 px-2"
           >
             About
           </Link>
           <Link
+            onClick={() => {
+              toggleMobileMenu();
+              setIsDropdownOpen(false);
+            }}
             href="/gallery"
             className="text-sm text-secondary hover:text-green-700 block py-1 px-2"
           >
             Gallery
           </Link>
           <Link
+            onClick={() => {
+              toggleMobileMenu();
+              setIsDropdownOpen(false);
+            }}
             href="/menu"
             className="text-sm text-secondary hover:text-green-700 block py-1 px-2"
           >
@@ -105,6 +121,7 @@ const Nav = () => {
               <div className="absolute md:right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-1 z-50">
                 {stores.map((store, index) => (
                   <Link
+                    onClick={toggleMobileMenu}
                     href={store.route}
                     key={index}
                     className="block px-2 py-1 text-sm text-gray-700 hover:bg-green-700 hover:text-white"
@@ -167,6 +184,7 @@ const Nav = () => {
               <div className="absolute md:right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-1 z-50">
                 {stores.map((store, index) => (
                   <Link
+                    onClick={toggleDropdown}
                     href={store.route}
                     key={index}
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-700 hover:text-white"

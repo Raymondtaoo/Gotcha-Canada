@@ -16,7 +16,7 @@ interface Location {
 }
 
 const center = {
-  lat: 43.65107, // Central point for Ontario
+  lat: 43.65107,
   lng: -79.347015,
 };
 
