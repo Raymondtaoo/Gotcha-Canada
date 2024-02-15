@@ -2,6 +2,15 @@
 
 Welcome to the frontend repository for Gotcha Bubble Tea, a Next.js web application featuring a rich user interface where customers can view menus, explore galleries, read testimonials, locate stores, and much more. The application is styled with Tailwind CSS for a sleek and responsive design.
 
+### Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Google Maps API](https://img.shields.io/badge/Google_Maps_API-4285F4?style=for-the-badge&logo=google-maps&logoColor=white)
+
+
 ## Features
 
 - A responsive navigation bar with dropdown menus for various store locations.
