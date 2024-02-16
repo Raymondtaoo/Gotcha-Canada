@@ -5,8 +5,8 @@ import Image from "next/image";
 interface MenuItem {
   name: string;
   description: string;
-  priceM: string;
-  priceL: string;
+  priceM?: string;
+  priceL?: string;
   image?: string;
 }
 
@@ -342,7 +342,6 @@ const Menu: React.FC = () => {
           name: "Green Tea with Cheese Foam",
           description: "Green Tea with Cheese Foam on Top",
           priceM: "7.15",
-          priceL: "N/A",
         },
       ],
     },
@@ -496,85 +495,71 @@ const Menu: React.FC = () => {
         {
           name: "Oolong Green Tea",
           description: "Fresh brewed oolong green tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "High Mountain Oolong Green Tea",
           description: "Fresh brewed oolong black tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Gotcha Oolong Green Tea",
           description: "Fresh brewed Signature Gotcha Oolong tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Jasmine Green Tea",
           description: "Fresh brewed original jasmine green tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Barley Green Tea",
           description: "Fresh brewed barley green tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Sun Moon Lake Black Tea",
           description: "Fresh brewed black tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Early Grey Black Tea",
           description: "Fresh brewed early grey black tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Jade Jasmine Green Tea",
           description: "Fresh brewed jade jasmine green tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Cheese Foam Jade Jasmine Green Tea",
           description: "Fresh brewed jade jasmine green tea with cheese foam",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Barley Black Tea",
           description: "Fresh brewed barley black tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Ceylon Black Tea",
           description: "Fresh brewed ceylon black tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Four-season Green Tea",
           description: "Fresh brewed four-season green tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Assam Black Tea",
           description: "Fresh brewed assam black tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Alishan Tea",
           description: "Fresh brewed Alishan tea",
-          priceM: "N/A",
           priceL: "6.5",
         },
       ],
@@ -585,145 +570,122 @@ const Menu: React.FC = () => {
         {
           name: "Lychee Fruit Tea",
           description: "Fresh brewed jasmine green tea with lychee flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Mulberry Fruit Tea",
           description: "Fresh brewed jasmine green tea with mulberry flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Mango Fruit Tea",
           description: "Fresh brewed jasmine green tea with mango flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Gotcha Signature Fruit Tea",
           description:
             "Fresh brewed jasmine green tea with peach flavour and multiple fruits",
-          priceM: "N/A",
           priceL: "9.0",
         },
         {
           name: "Peach Fruit Tea",
           description: "Fresh brewed jasmine green tea with peach flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Passionfruit Fruit Tea",
           description:
             "Fresh brewed jasmine green tea with passion fruit flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Strawberry Fruit Tea",
           description: "Fresh brewed jasmine green tea with strawberry flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Kumquat Fruit Tea",
           description:
             "Fresh brewed jasmine green tea with kumquat and lemon flavour",
-          priceM: "N/A",
           priceL: "7.3",
         },
         {
           name: "Pineapple Fruit Tea",
           description: "Fresh brewed jasmine green tea with pineapple flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Honeydew Fruit Tea",
           description: "Fresh brewed jasmine green tea with Honeydew flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Honey Fruit Tea",
           description: "Fresh brewed jasmine green tea with honey flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Kumquat Plum Fruit Tea",
           description:
             "Fresh brewed jasmine green tea with a combination of kumquat, green plum and dried plum flavour",
-          priceM: "N/A",
           priceL: "7.3",
         },
         {
           name: "Honey Lemon Fruit Tea",
           description:
             "Fresh brewed jasmine green tea with a lemon and honey flavour",
-          priceM: "N/A",
           priceL: "7.3",
         },
         {
           name: "Grape Fruit Tea",
           description: "Fresh brewed jasmine green tea with grape flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Orange Fruit Tea",
           description: "Fresh brewed jasmine green tea with orange flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Lemon Fruit Tea",
           description: "Fresh brewed jasmine green tea with lemon flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Green Plum Fruit Tea",
           description: "Fresh brewed jasmine green tea with green plum flavour",
-          priceM: "N/A",
           priceL: "6.5",
         },
         {
           name: "Lemon Jade Fruit Tea",
           description: "Fresh brewed jade jasmine green tea with lemon flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Pomelo Fruit Tea",
           description: "Fresh brewed jasmine green tea with pomelo flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Plum Fruit Tea",
           description: "Fresh brewed jasmine green tea with dried plum flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Mint Fruit Tea",
           description: "Fresh brewed jasmine green tea with mint flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Lychee Oolong Tea",
           description:
             "Lychee Oolong Tea, come with lychee popping boba and fresh lychee",
-          priceM: "N/A",
           priceL: "7.0",
         },
         {
           name: "Kiwi Fruit Tea",
           description: "Fresh brewed jasmine green tea with kiwi flavour",
-          priceM: "N/A",
           priceL: "7.0",
         },
       ],
@@ -734,54 +696,46 @@ const Menu: React.FC = () => {
         {
           name: "Strawberry Macchiato",
           description: "Icy refreshing strawberry slush with cheese foam",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Mango Macchiato",
           description:
             "Icy refreshing mango slush with cheese foam (popping peach boba extra)",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Matcha Red Bean Macchiato",
           description:
             "Icy refreshing matcha red bean smoothie with cheese foam",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Kiwi Macchiato",
           description: "Icy refreshing kiwi slush with cheese foam",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Cherry Macchiato",
           description:
             "Icy refreshing cherry smoothie with cheese foam (Grass jelly is extra)",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Peach Macchiato",
           description:
             "Icy refreshing peach slush with cheese foam (Popping boba is extra)",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Orange Macchiato",
           description: "Icy refreshing orange slush with cheese foam",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Grape Macchiato",
           description:
             "Icy refreshing grape slush with cheese foam (Grass jelly is extra)",
-          priceM: "N/A",
           priceL: "7.5",
         },
       ],
@@ -824,56 +778,48 @@ const Menu: React.FC = () => {
           name: "Strawberry Soda Tea",
           description:
             "Strawberry flavoured soda with blue butterfly tea layered on top, includes fresh strawberry",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Peach Soda Tea",
           description:
             "Peach flavoured soda with blue butterfly tea layered on top, includes sweet peach",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Lemon Soda Tea",
           description:
             "Lemon flavoured soda with blue butterfly tea layered on top, and a slice of lemon",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Passionfruit Soda Tea",
           description:
             "Passion fruit flavoured soda with blue butterfly tea layered on top",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Kiwi Soda Tea",
           description:
             "Kiwi flavoured soda with blue butterfly tea layered on top",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Mulberry Soda Tea",
           description:
             "Mulberry flavoured soda with blue butterfly tea layered on top",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Mint Soda Tea",
           description:
             "Minty flavoured soda with blue butterfly tea layered on top",
-          priceM: "N/A",
           priceL: "7.5",
         },
         {
           name: "Plum Soda Tea",
           description:
             "Dried plum flavoured soda with blue butterfly tea layered on top",
-          priceM: "N/A",
           priceL: "7.5",
         },
       ],
@@ -910,7 +856,6 @@ const Menu: React.FC = () => {
           name: "Mango Parfait",
           description:
             "Coconut mango smoothie with mango chunks, pandan jelly and colourful jelly",
-          priceM: "N/A",
           priceL: "7.8",
         },
       ],
@@ -958,7 +903,6 @@ const Menu: React.FC = () => {
           name: "Strawberry Pink",
           description:
             "Strawberry Pink with a hint of coconut flavor. Come with colorful jelly and crystal boba",
-          priceM: "N/A",
           priceL: "8.2",
         },
       ],
@@ -970,28 +914,24 @@ const Menu: React.FC = () => {
           name: "Mango Sensation",
           description:
             "Mouthwatering Dessert come with a Mango base and our Signature Milk loaded with topping. Topping; Fresh Mango, Taro & Sweet Potato Balls, Palm Seed. Crystal Boba and Coconut Jelly",
-          priceM: "N/A",
           priceL: "9.5",
         },
         {
           name: "Purple Delight",
           description:
             "Mouthwatering Dessert come with a hint of Coconut Flavor and our Signature Milk loaded with topping. Topping; Fresh Taro and Red Bean, Brown Sugar Tapioca, Taro & Sweet Potato Balls, Palm Seed and Coconut Jelly",
-          priceM: "N/A",
           priceL: "9.5",
         },
         {
           name: "Mango Parfait",
           description:
             "Coconut mango smoothie with mango chunks, pandan jelly and colourful jelly",
-          priceM: "N/A",
           priceL: "7.8",
         },
         {
           name: "Lychee Oolong Tea",
           description:
             "Lychee Oolong Tea, come with lychee popping boba and fresh lychee",
-          priceM: "N/A",
           priceL: "7.0",
         },
       ],
@@ -1029,15 +969,19 @@ const Menu: React.FC = () => {
                         alt={item.name}
                         layout="fill"
                         objectFit="cover" // This can be 'contain' as well
-                        className="rounded-t-lg" 
+                        className="rounded-t-lg"
                       />
                     </div>
                   )}
                   <h3 className="text-2xl font-bold mt-2">{item.name}</h3>
                   <p className="text-gray-600">{item.description}</p>
                   <div className="flex justify-between items-center mt-2">
-                    <span className="text-lg font-bold">{`M $${item.priceM}`}</span>
-                    <span className="text-lg font-bold">{`L $${item.priceL}`}</span>
+                    {item.priceM && (
+                      <span className="text-lg font-bold">{`M $${item.priceM}`}</span>
+                    )}
+                    {item.priceL && (
+                      <span className="text-lg font-bold">{`L $${item.priceL}`}</span>
+                    )}
                   </div>
                 </div>
               ))}
