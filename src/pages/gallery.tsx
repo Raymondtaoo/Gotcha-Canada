@@ -7,10 +7,10 @@ import Head from "next/head";
 
 const Gallery: React.FC = () => {
   const imageData = [
-    { src: "/images/b1.webp", alt: "Bubble tea" },
-    { src: "/images/b2.webp", alt: "Bubble tea" },
     { src: "/images/b5.webp", alt: "Bubble tea" },
+    { src: "/images/b2.webp", alt: "Bubble tea" },
     { src: "/images/b6.webp", alt: "Bubble tea" },
+    { src: "/images/b1.webp", alt: "Bubble tea" },
     { src: "/images/b7.webp", alt: "Bubble tea" },
     { src: "/images/b8.webp", alt: "Bubble tea" },
     { src: "/images/b9.webp", alt: "Bubble tea" },
@@ -19,9 +19,9 @@ const Gallery: React.FC = () => {
     { src: "/images/b12.webp", alt: "Bubble tea" },
     { src: "/images/b13.webp", alt: "Bubble tea" },
     { src: "/images/b14.webp", alt: "Bubble tea" },
-    { src: "/images/p1.webp", alt: "People" },
-    { src: "/images/p2.webp", alt: "People" },
     { src: "/images/p3.webp", alt: "People" },
+    { src: "/images/p2.webp", alt: "People" },
+    { src: "/images/p1.webp", alt: "People" },
     { src: "/images/p4.webp", alt: "People" },
     { src: "/images/p6.webp", alt: "People" },
     { src: "/images/p7.webp", alt: "People" },
@@ -31,11 +31,11 @@ const Gallery: React.FC = () => {
     { src: "/images/pl3.webp", alt: "Bubble tea plushie" },
     { src: "/images/guelph.webp", alt: "Guelph location" },
     { src: "/images/oak.webp", alt: "Oakville location" },
-    { src: "/images/king.webp", alt: "Kingston location" },
+    { src: "/images/thorn.webp", alt: "Thornhill location" },
     { src: "/images/mark.webp", alt: "Markham location" },
     { src: "/images/miss.webp", alt: "Mississauga location" },
     { src: "/images/trt.webp", alt: "Toronto location" },
-    { src: "/images/thorn.webp", alt: "Thornhill location" },
+    { src: "/images/king.webp", alt: "Kingston location" },
     // ... more images
   ];
 
