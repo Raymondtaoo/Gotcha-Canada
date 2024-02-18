@@ -6,8 +6,12 @@ import {
   faGooglePlay,
   faAppStoreIos,
 } from "@fortawesome/free-brands-svg-icons";
+import dynamic from "next/dynamic";
 
-import GotchaMap from "@/components/GotchaMap";
+const GotchaMapCSR = dynamic(() => import("@/components/GotchaMap"), {
+  ssr: false, // Prevents server-side rendering
+  loading: () => <p>Loading...</p>,
+});
 
 const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
 
@@ -87,7 +91,7 @@ const Home: NextPage = () => {
       <main className="relative">
         {/* Background Image */}
         <Image
-          src="/images/b4.webp" 
+          src="/images/b4.webp"
           layout="fill"
           objectFit="cover"
           quality={100}
@@ -117,7 +121,7 @@ const Home: NextPage = () => {
         <div className="max-w-9xl mx-auto">
           {" "}
           {/* This div will control the width of the map */}
-          <GotchaMap apiKey={apiKey} locations={locations} />
+          <GotchaMapCSR apiKey={apiKey} locations={locations} />
         </div>
       </section>
 
@@ -154,27 +158,6 @@ const Home: NextPage = () => {
               <span>Google Play</span>
             </a>
           </div>
-        </div>
-      </section>
-
-      {/* Franchise Section */}
-      <section className="bg-gray-100 py-12">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-semibold mb-6">
-            Become a Gotcha Franchisee
-          </h2>
-          <p className="text-gray-600 mb-8">
-            Start your journey with us and bring the Gotcha experience to your
-            community.
-          </p>
-          <a
-            href="https://gotchacanada.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white bg-green-600 py-2 px-6 rounded-lg hover:bg-green-700 transition-colors duration-300"
-          >
-            Learn More
-          </a>
         </div>
       </section>
     </div>
