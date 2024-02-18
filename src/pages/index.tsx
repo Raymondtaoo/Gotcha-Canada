@@ -6,12 +6,8 @@ import {
   faGooglePlay,
   faAppStoreIos,
 } from "@fortawesome/free-brands-svg-icons";
-import dynamic from "next/dynamic";
-
-const GotchaMapCSR = dynamic(() => import("@/components/GotchaMap"), {
-  ssr: false, // Prevents server-side rendering
-  loading: () => <p>Loading...</p>,
-});
+import GotchaMap from "@/components/GotchaMap";
+import React, { useState, useEffect } from "react";
 
 const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
 
@@ -121,7 +117,7 @@ const Home: NextPage = () => {
         <div className="max-w-9xl mx-auto">
           {" "}
           {/* This div will control the width of the map */}
-          <GotchaMapCSR apiKey={apiKey} locations={locations} />
+          <GotchaMap apiKey={apiKey} locations={locations} />
         </div>
       </section>
 

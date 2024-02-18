@@ -40,9 +40,7 @@ const ThornhillStore: React.FC = () => {
               alt={`Image of ${storeDetails.name}`}
               width={600}
               height={800}
-              layout="responsive"
-              objectFit="cover"
-              className="rounded-lg"
+              className="responsive-cover-image"
             />
           </div>
 

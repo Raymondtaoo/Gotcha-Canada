@@ -36,7 +36,13 @@ const GotchaMap: React.FC<GotchaMapProps> = ({ apiKey, locations }) => {
   };
 
   return (
-    <LoadScript googleMapsApiKey={apiKey}>
+    <LoadScript
+      googleMapsApiKey={apiKey}
+      loadingElement={<div>Loading...</div>}
+      id="script-loader"
+      language="en"
+      region="EN"
+    >
       <div className="md:flex">
         <div className="md:w-72 bg-green-50 overflow-auto md:h-screen">
           {locations.map((location) => (

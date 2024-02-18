@@ -68,7 +68,7 @@ const Gallery: React.FC = () => {
         {/* Gallery Banner Section */}
         <section
           className="text-center bg-cover bg-center p-8"
-          style={{ backgroundImage: "url(/images/gallery-banner.jpg)" }}
+          // style={{ backgroundImage: "url(/images/gallery-banner.jpg)" }}
         >
           <div className="bg-banner">
             <h1 className="text-6xl font-extrabold text-white mb-3">
@@ -98,8 +98,8 @@ const Gallery: React.FC = () => {
                   alt={image.alt}
                   width={500}
                   height={300}
-                  layout="responsive"
-                />
+                  className="responsive-image"
+                  />
               </div>
             ))}
           </Masonry>
