@@ -26,8 +26,8 @@ const Nav = () => {
 
   return (
     <nav className="bg-primary shadow-md flex justify-between items-center p-2 relative">
-      <Link href="/" className="flex items-center">
-        <Image src="/images/l1.webp" alt="Logo" width={100} height={100} />
+      <Link href="/" className="flex items-center pl-4">
+        <Image src="/images/l5.webp" alt="Logo" width={200} height={200} />
       </Link>
 
       {/* Hamburger Menu Icon for Mobile */}

@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import GotchaMap from "@/components/GotchaMap";
 import React, { useState, useEffect } from "react";
+import InstagramEmbed from "@/components/InstagramEmbed";
 
 const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
 
@@ -109,9 +110,14 @@ const Home: NextPage = () => {
         </div>
       </main>
 
+      {/* Instagram Feed Section */}
+      <section className="bg-white-100 py-8">
+        <InstagramEmbed />
+      </section>
+
       {/* Locations Section */}
-      <section className="container mx-auto p-4">
-        <h2 className="text-5xl font-bold text-green-800 text-center my-4">
+      <section className="container mx-auto">
+        <h2 className="text-5xl font-bold text-green-800 text-center my-4 mb-10">
           Locations
         </h2>
         <div className="max-w-9xl mx-auto">
