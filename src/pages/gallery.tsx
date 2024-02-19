@@ -7,13 +7,15 @@ import Head from "next/head";
 
 const Gallery: React.FC = () => {
   const imageData = [
+    { src: "/images/b15.webp", alt: "Bubble tea" },
+    { src: "/images/b16.webp", alt: "Bubble tea" },
+    { src: "/images/b17.webp", alt: "Bubble tea" },
     { src: "/images/b5.webp", alt: "Bubble tea" },
     { src: "/images/b2.webp", alt: "Bubble tea" },
     { src: "/images/b6.webp", alt: "Bubble tea" },
     { src: "/images/b1.webp", alt: "Bubble tea" },
     { src: "/images/b7.webp", alt: "Bubble tea" },
     { src: "/images/b8.webp", alt: "Bubble tea" },
-    { src: "/images/b9.webp", alt: "Bubble tea" },
     { src: "/images/b10.webp", alt: "Bubble tea" },
     { src: "/images/b11.webp", alt: "Bubble tea" },
     { src: "/images/b12.webp", alt: "Bubble tea" },
@@ -33,9 +35,9 @@ const Gallery: React.FC = () => {
     { src: "/images/oak.webp", alt: "Oakville location" },
     { src: "/images/thorn.webp", alt: "Thornhill location" },
     { src: "/images/mark.webp", alt: "Markham location" },
-    { src: "/images/miss.webp", alt: "Mississauga location" },
-    { src: "/images/trt.webp", alt: "Toronto location" },
-    { src: "/images/king.webp", alt: "Kingston location" },
+    // { src: "/images/miss.webp", alt: "Mississauga location" },
+    // { src: "/images/trt.webp", alt: "Toronto location" },
+    // { src: "/images/king.webp", alt: "Kingston location" },
     // ... more images
   ];
 
@@ -99,7 +101,7 @@ const Gallery: React.FC = () => {
                   width={500}
                   height={300}
                   className="responsive-image"
-                  />
+                />
               </div>
             ))}
           </Masonry>

@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Social Media Icons */}
         <div className="mb-3 sm:mb-0 order-1 sm:order-none">
           <a
-            href="https://www.instagram.com/gotcha_canada/"
+            href="https://www.instagram.com/gotchabubbletea_oakville/"
             className="text-xl"
           >
             <FontAwesomeIcon icon={faInstagram} size="lg" className="w-8 h-8" />

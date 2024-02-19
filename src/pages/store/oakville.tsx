@@ -8,7 +8,7 @@ const OakvilleStore: React.FC = () => {
     name: "Gotcha Oakville",
     address: "1011 Upper Middle Rd, Unit E4, Oakville, ON, L6H 4L3",
     phone: "(905) 845-8088",
-    image: "/images/oak.webp",
+    image: "/images/oak2.webp",
     googleMapsUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.969117390023!2d-79.69863212335699!3d43.48211487111073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b43e0ebc8ca9b%3A0xe14e7d05dcc84e41!2sGotcha%20Bubble%20Tea%20Oakville!5e0!3m2!1sen!2sca!4v1707974157774!5m2!1sen!2sca",
     uberEatsUrl:
