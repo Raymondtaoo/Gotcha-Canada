@@ -1,16 +1,15 @@
-// InstagramEmbed.tsx
 import React, { useEffect } from "react";
 
 const InstagramEmbed: React.FC = () => {
   useEffect(() => {
-    const addLightWidgetScript = () => {
+    const addScript = () => {
       const script = document.createElement("script");
-      script.src = "https://cdn.lightwidget.com/widgets/lightwidget.js";
+      script.src = "https://cdn.commoninja.com/sdk/latest/commonninja.js";
       script.async = true;
       document.body.appendChild(script);
     };
 
-    addLightWidgetScript();
+    addScript();
   }, []);
 
   return (
@@ -20,10 +19,10 @@ const InstagramEmbed: React.FC = () => {
       </h2>
       <div className="rounded-lg overflow-hidden shadow-lg">
         <iframe
-          src="//lightwidget.com/widgets/728464479478563b94db2ce00fffbdde.html"
+          src="//widgets.commoninja.com/347ffc1f-feba-4213-afbd-009fb6936fb0"
           allowTransparency={true}
-          className="lightwidget-widget"
-          style={{ width: "100%", border: 0, overflow: "hidden" }}
+          className="w-full"  
+          style={{ height: "500px", border: 0 }}  // Set a fixed height or adjust as needed
         ></iframe>
       </div>
       <div className="text-center mt-5">
