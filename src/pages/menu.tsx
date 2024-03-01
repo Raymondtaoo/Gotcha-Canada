@@ -26,7 +26,8 @@ const Menu: React.FC = () => {
             "Brown sugar boba fresh milk includes brown sugar tapioca",
           priceM: "7.0",
           priceL: "7.7",
-          image: "",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/31d895f334992954d216ceb4d66e341f/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Brown Sugar Boba Chocolate",
@@ -34,6 +35,8 @@ const Menu: React.FC = () => {
             "Brown Sugar Boba Fresh Milk with chocolate flavour includes brown sugar tapioca",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/1e62c4abeb515954d898d46b580e0a85/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Brown Sugar Fresh Milk with Cheese Foam",
@@ -41,6 +44,8 @@ const Menu: React.FC = () => {
             "Brown sugar boba fresh milk includes brown sugar tapioca and Cheese Foam",
           priceM: "7.5",
           priceL: "8.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/31d895f334992954d216ceb4d66e341f/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Paris 1883 Boba Fresh Milk with Cheese Foam",
@@ -48,6 +53,8 @@ const Menu: React.FC = () => {
             "Paris 1883 Boba Fresh Milk includes brown sugar tapioca, grass jelly, caramel pudding and topped with cheese foam (Oreo Extra)",
           priceM: "7.5",
           priceL: "8.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/8d5a74e3b597e6475adcd1b48e9027d5/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Brown Sugar Matcha",
@@ -55,6 +62,8 @@ const Menu: React.FC = () => {
             "Brown Sugar Boba Fresh Milk with Matcha includes brown sugar tapioca",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/5252f90a8d488905ab499ce66fec06f6/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         // ... more items in this category
       ],
@@ -81,12 +90,16 @@ const Menu: React.FC = () => {
             "Signature Milk Tea with coconut flavour, and brown sugar boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/7497f5f8e93b25ceeca8b8767c7a95b3/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         {
           name: "Thai Milk Tea",
           description: "Authentic Thai flavour tea with brown sugar tapioca",
           priceM: "7.8",
           priceL: "8.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/637d1fbc653d38b9cccee3690172ef3b/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         {
           name: "Paris 1883 Milk Tea",
@@ -94,30 +107,40 @@ const Menu: React.FC = () => {
             "Gotcha Signature milk tea with Caramel Pudding, Brown Sugar Boba, Grass Jelly , and topped with Oreo crumble",
           priceM: "7.5",
           priceL: "8.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/8d5a74e3b597e6475adcd1b48e9027d5/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Tiramisu Milk Tea",
           description: "Regular milk tea with tiramisu flavour and boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d454c6ed39f897c1ef180c77d4537d0b/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Matcha Milk Tea",
           description: "Matcha Milk Tea with brown sugar tapioca",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/5252f90a8d488905ab499ce66fec06f6/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         {
           name: "Toffee Milk Tea",
           description: "Gotcha Milk Tea with Toffee flavour and boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/1e62c4abeb515954d898d46b580e0a85/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Caramel Milk Tea",
           description: "Gotcha Milk Tea with caramel flavour and boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/1e62c4abeb515954d898d46b580e0a85/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Red Bean Milk Tea",
@@ -125,12 +148,16 @@ const Menu: React.FC = () => {
             "Signature Milk Tea with red bean flavour, fresh red bean, and brown sugar boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/9b82ebd536630fba3064f6ab801656a7/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         {
           name: "Green Milk Tea",
           description: "Made with green tea with brown sugar boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d454c6ed39f897c1ef180c77d4537d0b/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Jade Jasmine Milk Tea",
@@ -149,12 +176,16 @@ const Menu: React.FC = () => {
           description: "Made with Barley green tea with brown sugar boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d454c6ed39f897c1ef180c77d4537d0b/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Oolong Milk Tea",
           description: "Made with Oolong green tea with brown sugar boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d454c6ed39f897c1ef180c77d4537d0b/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Honey Milk Tea",
@@ -162,6 +193,8 @@ const Menu: React.FC = () => {
             "Gotcha milk tea with honey flavour and brown sugar boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Mint Milk Tea",
@@ -169,12 +202,16 @@ const Menu: React.FC = () => {
             "Signature Milk Tea with Nint flavour and brown sugar tapioca",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "French Boba Milk Tea",
           description: "Made with Ceylon tea and includes brown sugar boba",
           priceM: "7.0",
           priceL: "7.7",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d454c6ed39f897c1ef180c77d4537d0b/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Barley Milk Tea",
@@ -193,18 +230,24 @@ const Menu: React.FC = () => {
           description: "Yakult Green Tea with mango flavour",
           priceM: "6.5",
           priceL: "7.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d96b063f358e17cf5a73449995c3191a/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Peach Yakult Green Tea",
           description: "Yakult Green Tea with peach flavour",
           priceM: "6.5",
           priceL: "7.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d96b063f358e17cf5a73449995c3191a/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Strawberry Yakult Green Tea",
           description: "Yakult Green Tea with strawberry flavour",
           priceM: "6.5",
           priceL: "7.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/32afb4ac06f607a3c8d17bf6a412678d/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Kiwi Yakult Green Tea",
@@ -217,12 +260,16 @@ const Menu: React.FC = () => {
           description: "Yakult Green Tea with mulberry flavour",
           priceM: "6.5",
           priceL: "7.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/e21305ed4db5fc806cdce86ec4bf7770/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Yakult Green Tea",
           description: "Original Yakult Green Tea",
           priceM: "6.5",
           priceL: "7.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         // ... more items in this category
       ],
@@ -242,12 +289,16 @@ const Menu: React.FC = () => {
           description: "Signature fresh milk with coconut flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Mango Milk",
           description: "Signature fresh milk with mango flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/afb15ea9d77a236c1ea40df48afdb892/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Chocolate Milk",
@@ -262,6 +313,8 @@ const Menu: React.FC = () => {
             "Signature fresh milk with taro flavour, includes fresh taro",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/8bfab675012dd71bc8744553ec84c722/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Cherry Milk",
@@ -275,6 +328,8 @@ const Menu: React.FC = () => {
             "Gotcha fresh milk with brown sugar tapioca, grass jelly, caramel pudding and Oreo on top",
           priceM: "7.5",
           priceL: "8.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/8d5a74e3b597e6475adcd1b48e9027d5/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Red Bean Milk",
@@ -288,12 +343,16 @@ const Menu: React.FC = () => {
           description: "Signature fresh milk with honeydew flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Winter Melon Milk",
           description: "Signature fresh milk with winter melon flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Mint Milk",
@@ -326,6 +385,8 @@ const Menu: React.FC = () => {
           description: "Signature fresh milk with mulberry flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/e21305ed4db5fc806cdce86ec4bf7770/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Passion Fruit Milk",
@@ -353,6 +414,8 @@ const Menu: React.FC = () => {
           description: "Yogurt drink base with coconut flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Taro Yogurt",
@@ -360,6 +423,8 @@ const Menu: React.FC = () => {
             "Yogurt drink base with taro flavour (Cheese Foam extra)",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/8bfab675012dd71bc8744553ec84c722/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Strawberry Yogurt",
@@ -372,12 +437,16 @@ const Menu: React.FC = () => {
           description: "Yogurt drink base with peach flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Lychee Yogurt",
           description: "Yogurt drink base with lychee flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Cherry Yogurt",
@@ -391,6 +460,8 @@ const Menu: React.FC = () => {
             "Gotcha milk tea with Yogurt flavour and brown sugar boba",
           priceM: "6.9",
           priceL: "7.6",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d454c6ed39f897c1ef180c77d4537d0b/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Matcha Yogurt",
@@ -398,12 +469,16 @@ const Menu: React.FC = () => {
             "Yogurt drink base with matcha flavour (Brown Sugar Boba is extra)",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/5252f90a8d488905ab499ce66fec06f6/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         {
           name: "Mulberry Yogurt",
           description: "Yogurt drink base with mulberry flavour",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/e21305ed4db5fc806cdce86ec4bf7770/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Chocolate Yogurt",
@@ -411,6 +486,8 @@ const Menu: React.FC = () => {
             "Yogurt drink base with chocolate flavour (Brown sugar tapioca is extra)",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/1e62c4abeb515954d898d46b580e0a85/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Red bean Yogurt",
@@ -418,6 +495,8 @@ const Menu: React.FC = () => {
             "Yogurt drink base with fresh red bean (Brown sugar tapioca is extra)",
           priceM: "6.7",
           priceL: "7.4",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/9b82ebd536630fba3064f6ab801656a7/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
       ],
     },
@@ -496,41 +575,57 @@ const Menu: React.FC = () => {
           name: "Oolong Green Tea",
           description: "Fresh brewed oolong green tea",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "High Mountain Oolong Green Tea",
           description: "Fresh brewed oolong black tea",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Gotcha Oolong Green Tea",
           description: "Fresh brewed Signature Gotcha Oolong tea",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Jasmine Green Tea",
           description: "Fresh brewed original jasmine green tea",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Barley Green Tea",
           description: "Fresh brewed barley green tea",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Sun Moon Lake Black Tea",
           description: "Fresh brewed black tea",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Early Grey Black Tea",
           description: "Fresh brewed early grey black tea",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Jade Jasmine Green Tea",
           description: "Fresh brewed jade jasmine green tea",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Cheese Foam Jade Jasmine Green Tea",
@@ -541,26 +636,31 @@ const Menu: React.FC = () => {
           name: "Barley Black Tea",
           description: "Fresh brewed barley black tea",
           priceL: "6.5",
+          image: "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Ceylon Black Tea",
           description: "Fresh brewed ceylon black tea",
           priceL: "6.5",
+          image: "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Four-season Green Tea",
           description: "Fresh brewed four-season green tea",
           priceL: "6.5",
+          image: "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Assam Black Tea",
           description: "Fresh brewed assam black tea",
           priceL: "6.5",
+          image: "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Alishan Tea",
           description: "Fresh brewed Alishan tea",
           priceL: "6.5",
+          image: "https://tb-static.uber.com/prod/image-proc/processed_images/136aa10432df10142d707c9697a1bf86/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
       ],
     },
@@ -587,6 +687,8 @@ const Menu: React.FC = () => {
           description:
             "Fresh brewed jasmine green tea with peach flavour and multiple fruits",
           priceL: "9.0",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/d454c6ed39f897c1ef180c77d4537d0b/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Peach Fruit Tea",
@@ -619,6 +721,8 @@ const Menu: React.FC = () => {
           name: "Honeydew Fruit Tea",
           description: "Fresh brewed jasmine green tea with Honeydew flavour",
           priceL: "7.0",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/544ba7b7e8a0bbc1538c5bc893a280b3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Honey Fruit Tea",
@@ -641,6 +745,8 @@ const Menu: React.FC = () => {
           name: "Grape Fruit Tea",
           description: "Fresh brewed jasmine green tea with grape flavour",
           priceL: "7.0",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/e21305ed4db5fc806cdce86ec4bf7770/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Orange Fruit Tea",
@@ -656,6 +762,8 @@ const Menu: React.FC = () => {
           name: "Green Plum Fruit Tea",
           description: "Fresh brewed jasmine green tea with green plum flavour",
           priceL: "6.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/e21305ed4db5fc806cdce86ec4bf7770/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Lemon Jade Fruit Tea",
@@ -671,11 +779,15 @@ const Menu: React.FC = () => {
           name: "Plum Fruit Tea",
           description: "Fresh brewed jasmine green tea with dried plum flavour",
           priceL: "7.0",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/e21305ed4db5fc806cdce86ec4bf7770/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Mint Fruit Tea",
           description: "Fresh brewed jasmine green tea with mint flavour",
           priceL: "7.0",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/544ba7b7e8a0bbc1538c5bc893a280b3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Lychee Oolong Tea",
@@ -687,6 +799,8 @@ const Menu: React.FC = () => {
           name: "Kiwi Fruit Tea",
           description: "Fresh brewed jasmine green tea with kiwi flavour",
           priceL: "7.0",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/544ba7b7e8a0bbc1538c5bc893a280b3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
       ],
     },
@@ -761,6 +875,8 @@ const Menu: React.FC = () => {
           description: "Fresh milk with winter melon flavour layered on top",
           priceM: "6.5",
           priceL: "7.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/88b060b9e08af78eb6c5cb1595396ee3/4218ca1d09174218364162cd0b1a8cc1.jpeg",
         },
         {
           name: "Chocolate Latte",
@@ -839,6 +955,8 @@ const Menu: React.FC = () => {
             "Icy refreshing matcha red bean smoothie (Cheese Foam is extra)",
           priceM: "6.5",
           priceL: "7.2",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/9b82ebd536630fba3064f6ab801656a7/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         {
           name: "Chocolate Caramel Smoothie",
@@ -915,12 +1033,16 @@ const Menu: React.FC = () => {
           description:
             "Mouthwatering Dessert come with a Mango base and our Signature Milk loaded with topping. Topping; Fresh Mango, Taro & Sweet Potato Balls, Palm Seed. Crystal Boba and Coconut Jelly",
           priceL: "9.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/95115168659797ea76f306226228cd01/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         {
           name: "Purple Delight",
           description:
             "Mouthwatering Dessert come with a hint of Coconut Flavor and our Signature Milk loaded with topping. Topping; Fresh Taro and Red Bean, Brown Sugar Tapioca, Taro & Sweet Potato Balls, Palm Seed and Coconut Jelly",
           priceL: "9.5",
+          image:
+            "https://tb-static.uber.com/prod/image-proc/processed_images/6276d319dd3f4addfb627288c0c40fe6/f0d1762b91fd823a1aa9bd0dab5c648d.jpeg",
         },
         {
           name: "Mango Parfait",
