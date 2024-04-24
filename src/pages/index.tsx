@@ -21,14 +21,14 @@ const locations = [
     lat: 43.48211134588206,
     lng: -79.69605731106158,
   },
-  {
-    id: 2,
-    name: "Gotcha Toronto",
-    address: "402 Spadina Ave., Toronto, ON, M5T 2G7",
-    phone: "(416) 596-1010",
-    lat: 43.65597297086738,
-    lng: -79.3995306126834,
-  },
+  // {
+  //   id: 2,
+  //   name: "Gotcha Toronto",
+  //   address: "402 Spadina Ave., Toronto, ON, M5T 2G7",
+  //   phone: "(416) 596-1010",
+  //   lat: 43.65597297086738,
+  //   lng: -79.3995306126834,
+  // },
   {
     id: 3,
     name: "Gotcha Mississauga",

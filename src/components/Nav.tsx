@@ -16,7 +16,7 @@ const Nav = () => {
 
   const stores = [
     { name: "Oakville", route: "/store/oakville" },
-    { name: "Toronto", route: "/store/toronto" },
+    // { name: "Toronto", route: "/store/toronto" },
     { name: "Mississauga", route: "/store/mississauga" },
     { name: "Markham", route: "/store/markham" },
     { name: "Guelph", route: "/store/guelph" },
