@@ -7,6 +7,7 @@ interface MenuItem {
   description: string;
   priceM?: string;
   priceL?: string;
+  priceXL?: string;
   image?: string;
 }
 
@@ -1103,6 +1104,9 @@ const Menu: React.FC = () => {
                     )}
                     {item.priceL && (
                       <span className="text-lg font-bold">{`L $${item.priceL}`}</span>
+                    )}
+                    {item.priceXL && (
+                      <span className="text-lg font-bold">{`L $${item.priceXL}`}</span>
                     )}
                   </div>
                 </div>
