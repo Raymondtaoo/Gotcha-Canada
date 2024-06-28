@@ -94,26 +94,14 @@ const Admin: React.FC = () => {
     }
   };
 
-  const handleSave = async () => {
-    try {
-      const response = await fetch("/api/save-menu", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(menu),
-      });
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      alert("Menu saved successfully!");
-    } catch (error: unknown) {
-      if (error instanceof Error) {
-        alert(`Error saving menu: ${error.message}`);
-      } else {
-        alert("An unknown error occurred while saving the menu");
-      }
-    }
+  const handleDownload = () => {
+    const blob = new Blob([JSON.stringify(menu, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'menu.json';
+    a.click();
+    URL.revokeObjectURL(url);
   };
 
   if (!authenticated) {
@@ -198,10 +186,10 @@ const Admin: React.FC = () => {
         </div>
       )}
       <button
-        onClick={handleSave}
+        onClick={handleDownload}
         className="bg-green-500 text-white p-3 rounded font-semibold hover:bg-green-600"
       >
-        Save
+        Download Updated Menu
       </button>
     </div>
   );
