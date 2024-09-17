@@ -22,7 +22,7 @@ const Footer = () => {
         {/* Use flex-grow to ensure it takes up the available space */}
         <div className="flex-grow px-3 pb-0">
           <p className="text-sm">
-            Made with ❤️ in Ontario - Coming to Calgary 👀
+            Made with ❤️ in Ontario - Now in Calgary 👀
           </p>
         </div>
 

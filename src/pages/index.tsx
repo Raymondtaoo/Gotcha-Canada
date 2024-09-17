@@ -69,6 +69,14 @@ const locations = [
     lat: 44.23253399610409,
     lng: -76.48972245292981,
   },
+  {
+    id: 8,
+    name: "Gotcha Calgary",
+    address: "751 3 St SW, Calgary, AB, T2P 4K8",
+    phone: "(403) 454-0630",
+    lat: 51.04610911174132,
+    lng: -114.07106705269788,
+  },
   // Add more locations as needed
 ];
 

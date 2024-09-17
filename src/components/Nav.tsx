@@ -22,6 +22,7 @@ const Nav = () => {
     { name: "Guelph", route: "/store/guelph" },
     { name: "Thornhill", route: "/store/thornhill" },
     { name: "Kingston", route: "/store/kingston" },
+    { name: "Calgary", route: "/store/calgary" },
   ];
 
   return (
