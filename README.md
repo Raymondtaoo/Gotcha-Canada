@@ -36,4 +36,4 @@ Contributions to the Gotcha Bubble Tea web application are welcome! Please feel 
 
 ---
 
-Visit the official [Gotcha Bubble Tea website](placeholder: https://gotcha-canada.com/).
+Visit the official [Gotcha Bubble Tea website](https://www.gotchabubbletea.ca/).
