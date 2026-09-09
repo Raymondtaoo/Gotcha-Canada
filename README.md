@@ -20,25 +20,6 @@ Welcome to the frontend repository for Gotcha Bubble Tea, a Next.js web applicat
 - An interactive map component for displaying store locations.
 - A comprehensive menu page with dynamically loaded categories and items.
 
-## Screenshots
-
-Here are some highlights of our web application:
-
-![Home Page](placeholder)
-_Home page with main navigation._
-
-![Menu Page](placeholder)
-_Browse our extensive menu with detailed descriptions and prices._
-
-![Gallery Page](placeholder)
-_Explore our gallery to get a glimpse of our vibrant world._
-
-![Testimonials Section](placeholder)
-_Read through the experiences of our beloved customers._
-
-![Store Locator](placeholder)
-_Find a Gotcha Bubble Tea store near you._
-
 ## Dependencies
 
 - **Next.js**: The React framework used for server-rendered and static web applications.
@@ -55,4 +36,4 @@ Contributions to the Gotcha Bubble Tea web application are welcome! Please feel 
 
 ---
 
-Visit the official [Gotcha Bubble Tea website](placeholder: https://gotcha-canada.com/) for more information.
+Visit the official [Gotcha Bubble Tea website](placeholder: https://gotcha-canada.com/).
