@@ -50,7 +50,7 @@ export const SITE_CONFIG: SiteConfig = {
   rewardsApp: {
     iosUrl: "https://apps.apple.com/ca/app/gotcha/id6443395772",
     androidUrl:
-      "https://play.google.com/store/apps/details?id=uni.UNIA3GOTCHA",
+      "https://play.google.com/store/apps/details?id=qpos.Gotcha",
   },
   franchiseUrl: "https://gotchacanada.com/",
   primaryNav: [
