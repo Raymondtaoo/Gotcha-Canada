@@ -4,7 +4,14 @@ import type {
   StoreProvince,
 } from "@/types/store";
 
-export const RETIRED_STORE_SLUGS = ["markham", "guelph", "toronto"] as const;
+export const RETIRED_STORE_SLUGS = [
+  "markham",
+  "guelph",
+  "toronto",
+  "mississauga",
+  "kingston",
+  "thornhill",
+] as const;
 
 export const STORES: StoreLocation[] = [
   {
@@ -68,78 +75,23 @@ export const STORES: StoreLocation[] = [
     instagramUrl: "https://www.instagram.com/gotchabubbletea_oakville/",
   },
   {
-    slug: "mississauga",
-    name: "Gotcha Bubble Tea Mississauga",
-    shortName: "Mississauga",
+    slug: "vaughan",
+    name: "Gotcha Bubble Tea Vaughan",
+    shortName: "Vaughan",
     status: "active",
     province: "ON",
     provinceName: "Ontario",
     tagline:
-      "Late-night handcrafted bubble tea & desserts on Platinum Drive.",
-    address: {
-      street: "3525 Platinum Dr",
-      unit: "Unit 121",
-      city: "Mississauga",
-      province: "ON",
-      postalCode: "L5M 7N4",
-      country: "CA",
-      formatted: "3525 Platinum Dr, Unit 121, Mississauga, ON L5M 7N4",
-    },
-    phone: "(905) 607-8688",
-    coordinates: {
-      lat: 43.53711455854843,
-      lng: -79.72829308981629,
-    },
-    hours: [
-      {
-        days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-        label: "Sun – Thu",
-        opens: "12:00",
-        closes: "23:45",
-        displayHours: "12:00 PM – 11:45 PM",
-      },
-      {
-        days: ["Friday", "Saturday"],
-        label: "Fri – Sat",
-        opens: "12:00",
-        closes: "00:45",
-        displayHours: "12:00 PM – 12:45 AM",
-      },
-    ],
-    image: {
-      src: "/images/miss.webp",
-      width: 1243,
-      height: 1600,
-      alt: "Gotcha Bubble Tea Mississauga storefront and interior",
-    },
-    googleMapsEmbedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46277.3511075549!2d-79.76942712033271!3d43.53706990338318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b435691943bf5%3A0x8d23cb40bbe7593d!2sGotcha%20Bubble%20Tea%20Mississauga!5e0!3m2!1sen!2sca!4v1707978211207!5m2!1sen!2sca",
-    googleMapsDirectionsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Gotcha+Bubble+Tea+Mississauga+3525+Platinum+Dr+Mississauga+ON+L5M+7N4",
-    orderLinks: {
-      uberEats:
-        "https://www.ubereats.com/ca/store/gotcha-bubble-tea-platinum-dr/VG2csKGuXcOFJxsHVJkTDQ",
-      googleFood:
-        "https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11s2pgxn0_&orderType=1&utm_source=share",
-    },
-  },
-  {
-    slug: "thornhill",
-    name: "Gotcha Bubble Tea Thornhill",
-    shortName: "Thornhill",
-    status: "active",
-    province: "ON",
-    provinceName: "Ontario",
-    tagline:
-      "Serving fresh Taiwanese tea, cheese foam macchiatos & fruit teas on Steeles.",
+      "Serving fresh Taiwanese tea, cheese foam macchiatos & fruit teas in Vaughan (Thornhill).",
     address: {
       street: "800 Steeles Ave W",
       unit: "Unit B21",
-      city: "Thornhill",
+      city: "Vaughan",
       province: "ON",
       postalCode: "L4J 7L2",
       country: "CA",
-      formatted: "800 Steeles Ave W, Unit B21, Thornhill, ON L4J 7L2",
+      formatted: "800 Steeles Ave W, Unit B21, Vaughan, ON L4J 7L2",
+      landmark: "Thornhill · Steeles Ave W",
     },
     phone: "(905) 597-2188",
     coordinates: {
@@ -167,73 +119,17 @@ export const STORES: StoreLocation[] = [
       src: "/images/thorn.webp",
       width: 1200,
       height: 1600,
-      alt: "Gotcha Bubble Tea Thornhill tea bar",
+      alt: "Gotcha Bubble Tea Vaughan tea bar",
     },
     googleMapsEmbedUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.0079404810376!2d-79.45003982334303!3d43.79344827109574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2dee92ae2c63%3A0xd1a9b35fe1a7ea56!2sGOTCHA%20Fresh%20Tea-%20Thornhill!5e0!3m2!1sen!2sca!4v1707979622792!5m2!1sen!2sca",
     googleMapsDirectionsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Gotcha+Fresh+Tea+Thornhill+800+Steeles+Ave+W+Thornhill+ON+L4J+7L2",
+      "https://www.google.com/maps/search/?api=1&query=Gotcha+Bubble+Tea+Vaughan+800+Steeles+Ave+W+Vaughan+ON+L4J+7L2",
     orderLinks: {
       uberEats:
         "https://www.ubereats.com/ca/store/gotcha-bubble-tea/w8ktJFSLSzWDBzs5KsMc7g",
       googleFood:
         "https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11m46ttd0b&orderType=1&utm_source=share",
-    },
-  },
-  {
-    slug: "kingston",
-    name: "Gotcha Bubble Tea Kingston",
-    shortName: "Kingston",
-    status: "active",
-    province: "ON",
-    provinceName: "Ontario",
-    tagline: "Handcrafted bubble tea & fruit teas in downtown Kingston.",
-    address: {
-      street: "330 Princess St",
-      city: "Kingston",
-      province: "ON",
-      postalCode: "K7L 1B6",
-      country: "CA",
-      formatted: "330 Princess St, Kingston, ON K7L 1B6",
-      landmark: "Downtown Kingston",
-    },
-    coordinates: {
-      lat: 44.23253399610409,
-      lng: -76.48972245292981,
-    },
-    hours: [
-      {
-        days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-        label: "Sun – Thu",
-        opens: "12:00",
-        closes: "22:00",
-        displayHours: "12:00 PM – 10:00 PM",
-      },
-      {
-        days: ["Friday", "Saturday"],
-        label: "Fri – Sat",
-        opens: "12:00",
-        closes: "22:00",
-        displayHours: "12:00 PM – 10:00 PM",
-      },
-    ],
-    hoursNote:
-      "Weekend evening hours may vary; check Uber Eats for live availability.",
-    image: {
-      src: "/images/king.webp",
-      width: 1600,
-      height: 1200,
-      alt: "Gotcha Bubble Tea Kingston location on Princess Street",
-    },
-    googleMapsEmbedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1429.3816016227074!2d-76.49101026103222!3d44.23253339277019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd2abd0ec8f4f87%3A0xac92fddf4baa0302!2sGotcha%20Bubble%20Tea!5e0!3m2!1sen!2sca!4v1707980083188!5m2!1sen!2sca",
-    googleMapsDirectionsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Gotcha+Bubble+Tea+Kingston+330+Princess+St+Kingston+ON+K7L+1B6",
-    orderLinks: {
-      uberEats:
-        "https://www.ubereats.com/ca/store/gotcha-bubble-tea/FSsGWtJnUAizXPC7_wiQOA",
-      googleFood:
-        "https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11sycfvk87&orderType=1&utm_source=share",
     },
   },
   {

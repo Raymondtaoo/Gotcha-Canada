@@ -9,12 +9,7 @@ export type DayOfWeek =
 
 export type StoreProvince = "ON" | "AB";
 
-export type ActiveStoreSlug =
-  | "oakville"
-  | "mississauga"
-  | "thornhill"
-  | "kingston"
-  | "calgary";
+export type ActiveStoreSlug = "oakville" | "vaughan" | "calgary";
 
 export interface OpeningHoursEntry {
   /** Days of week mapped directly to schema.org openingHoursSpecification. */
@@ -57,7 +52,7 @@ export interface StoreLocation {
   provinceName: "Ontario" | "Alberta";
   tagline: string;
   address: StoreAddress;
-  /** Omitted cleanly when a store has no public phone line (e.g. Kingston). */
+  /** Omitted cleanly when a store has no public phone line. */
   phone?: string;
   coordinates: {
     lat: number;

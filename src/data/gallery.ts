@@ -153,7 +153,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     category: "drinks",
   },
 
-  // Stores (8 curated active-location & interior photos)
+  // Stores (6 curated active-location & interior photos)
   {
     id: "store-oakville-counter",
     src: "/images/oak2.webp",
@@ -174,30 +174,12 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     category: "stores",
   },
   {
-    id: "store-mississauga-exterior",
-    src: "/images/miss.webp",
-    width: 1243,
-    height: 1600,
-    alt: "Gotcha Bubble Tea Mississauga storefront at Unit 121 Platinum Drive with illuminated signage",
-    caption: "Gotcha Mississauga — Platinum Drive",
-    category: "stores",
-  },
-  {
-    id: "store-thornhill-interior",
+    id: "store-vaughan-interior",
     src: "/images/thorn.webp",
     width: 1200,
     height: 1600,
-    alt: "Gotcha Bubble Tea Thornhill tea bar interior with bear mascot and dessert display",
-    caption: "Gotcha Thornhill — Steeles Avenue West",
-    category: "stores",
-  },
-  {
-    id: "store-kingston-interior",
-    src: "/images/king.webp",
-    width: 1600,
-    height: 1200,
-    alt: "Gotcha Bubble Tea Kingston stone-walled cafe interior with glowing Live Laugh Boba neon sign",
-    caption: "Gotcha Kingston — Princess Street",
+    alt: "Gotcha Bubble Tea Vaughan tea bar interior with bear mascot and dessert display",
+    caption: "Gotcha Vaughan — Steeles Avenue West",
     category: "stores",
   },
   {
@@ -276,12 +258,12 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     category: "moments",
   },
   {
-    id: "moment-mississauga-boba-smile",
+    id: "moment-boba-smile",
     src: "/images/p7.webp",
     width: 1200,
     height: 1600,
-    alt: "Guest holding a Gotcha milk tea cup playfully inside the Mississauga cafe",
-    caption: "Good tea, good company",
+    alt: "Guest holding a Gotcha milk tea cup playfully inside the cafe",
+    caption: "Afternoon boba moments at Gotcha",
     category: "moments",
   },
   {

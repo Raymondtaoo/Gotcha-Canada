@@ -15,8 +15,9 @@ export default function NotFound() {
 
       <p className="mt-4 max-w-xl text-base leading-relaxed text-ink-muted">
         The page you&apos;re looking for may have moved or belongs to a retired
-        storefront. Explore our full handcrafted menu or find one of our five
-        active Gotcha Bubble Tea Canada locations.
+        storefront. Explore our full handcrafted menu or find one of our three
+        active Gotcha Bubble Tea Canada locations in Oakville, Vaughan, and
+        Calgary.
       </p>
 
       <div className="mt-8 flex flex-wrap items-center justify-center gap-3">

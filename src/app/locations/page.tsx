@@ -10,7 +10,7 @@ import { buildBreadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildPageMetadata({
   title: "Locations & Store Hours",
   description:
-    "Find Gotcha Bubble Tea Canada locations in Oakville, Mississauga, Thornhill, Kingston, and Calgary. View store hours, directions, and online ordering links.",
+    "Find Gotcha Bubble Tea Canada locations in Oakville, Vaughan, and Calgary. View store hours, directions, and online ordering links.",
   path: "/locations",
 });
 
@@ -47,9 +47,9 @@ export default function LocationsPage() {
                 Find Your Nearest Gotcha Tea Bar
               </h1>
               <p className="mt-3 text-base leading-relaxed text-ink-muted">
-                Visit us in Oakville, Mississauga, Thornhill, Kingston, or
-                downtown Calgary. Select any store below for live hours,
-                directions, and Uber Eats, DoorDash, or Google Food ordering.
+                Visit us in Oakville, Vaughan, or downtown Calgary. Select any
+                store below for live hours, directions, and Uber Eats, DoorDash,
+                or Google Food ordering.
               </p>
             </div>
 

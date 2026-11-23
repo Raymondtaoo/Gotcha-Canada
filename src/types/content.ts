@@ -1,3 +1,5 @@
+import type { ActiveStoreSlug } from "@/types/store";
+
 export type GalleryCategory = "drinks" | "stores" | "moments";
 
 export interface GalleryPhoto {
@@ -15,7 +17,7 @@ export interface Testimonial {
   id: string;
   author: string;
   storeName: string;
-  storeSlug: string;
+  storeSlug: ActiveStoreSlug;
   rating: 5;
   drinkTried?: string;
   quote: string;

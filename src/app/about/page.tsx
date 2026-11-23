@@ -195,9 +195,8 @@ export default function AboutPage() {
             <p className="mt-3 text-sm leading-relaxed text-ink-muted sm:text-base">
               Whether you are craving our #1 Most Liked Mango Parfait, a cozy
               cup of Brown Sugar Fresh Milk, or a customized 30%-sugar Jade
-              Jasmine tea, our store teams across Oakville, Mississauga,
-              Thornhill, Kingston, and Calgary are always happy to recommend a
-              new favourite.
+              Jasmine tea, our store teams across Oakville, Vaughan, and Calgary
+              are always happy to recommend a new favourite.
             </p>
             <div className="mt-6">
               <Link

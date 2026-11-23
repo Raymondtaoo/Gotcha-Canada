@@ -10,7 +10,7 @@ export const SITE_CONFIG: SiteConfig = {
   chineseName: "鮮饗茶",
   tagline: "We Farm Our Own Tea",
   description:
-    "Handcrafted Taiwanese bubble tea brewed from organic single-origin tea leaves harvested on our own farms in Taiwan. Visit Gotcha across Ontario and Calgary, Alberta.",
+    "Handcrafted Taiwanese bubble tea brewed from organic single-origin tea leaves harvested on our own farms in Taiwan. Visit Gotcha in Oakville, Vaughan, and Calgary.",
   url: SITE_URL,
   locale: "en_CA",
   ogImage: {

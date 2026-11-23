@@ -281,7 +281,7 @@ export function Header() {
                   onClick={closeAllMenus}
                   className="text-xs font-semibold text-matcha-700 hover:underline"
                 >
-                  View all 5
+                  View all {ACTIVE_STORES.length}
                 </Link>
               </div>
               <div className="grid grid-cols-1 gap-1">

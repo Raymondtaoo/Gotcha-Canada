@@ -33,7 +33,7 @@ Gotcha-Canada/
 ├── AGENTS.md                    # this file
 ├── README.md                    # project overview & maintainer docs
 ├── public/
-│   └── images/                  # 38 optimized local WebP assets (~4.7 MB total, all <260 KB)
+│   └── images/                  # 36 optimized local WebP assets (~4.4 MB total, all <260 KB)
 └── src/
     ├── app/
     │   ├── layout.tsx           # Root shell: <html lang="en-CA">, fonts, metadataBase, Org/WebSite JSON-LD,
@@ -42,7 +42,7 @@ Gotcha-Canada/
     │   ├── icon.ico             # 32x32 site favicon
     │   ├── page.tsx             # / — Home (SSG)
     │   ├── menu/page.tsx        # /menu — Full bilingual 176-item static menu + Menu/Breadcrumb JSON-LD
-    │   ├── locations/page.tsx   # /locations — Store locator + all 5 active store cards
+    │   ├── locations/page.tsx   # /locations — Store locator + all 3 active store cards
     │   ├── store/[slug]/page.tsx# /store/[slug] — Dynamic SSG store pages (generateStaticParams + dynamicParams = false)
     │   ├── about/page.tsx       # /about — Brand story, Alishan farm craft, testimonials carousel, franchise CTA
     │   ├── gallery/page.tsx     # /gallery — CSS multi-column masonry gallery + zero-dep lightbox
@@ -60,8 +60,8 @@ Gotcha-Canada/
     ├── data/
     │   ├── site.ts              # SITE_URL, SITE_CONFIG (brand info, logos, OG image, social, apps, nav)
     │   ├── menu.ts              # 14 categories, 176 bilingual EN/ZH items, customizations, helpers
-    │   ├── stores.ts            # 5 active stores + RETIRED_STORE_SLUGS + helpers
-    │   ├── gallery.ts           # 31 curated photos w/ exact intrinsic width/height + home highlights
+    │   ├── stores.ts            # 3 active stores + RETIRED_STORE_SLUGS + helpers
+    │   ├── gallery.ts           # 29 curated photos w/ exact intrinsic width/height + home highlights
     │   └── testimonials.ts      # 5 curated 5-star reviews from active stores
     ├── types/
     │   ├── menu.ts              # MenuCategoryId, MenuItem, MenuCategory, MenuPrice, CustomizationGroup, etc.
@@ -73,10 +73,13 @@ Gotcha-Canada/
 ```
 
 ### Permanent Redirects (`next.config.ts`)
-Retired routes issue permanent HTTP 308 redirects so legacy backlinks stay healthy:
+Retired and renamed routes issue permanent HTTP 308 redirects so legacy backlinks stay healthy:
 - `/store/markham` → `/locations`
 - `/store/guelph` → `/locations`
 - `/store/toronto` → `/locations`
+- `/store/mississauga` → `/locations`
+- `/store/kingston` → `/locations`
+- `/store/thornhill` → `/store/vaughan`
 - `/admin` → `/`
 
 ---
@@ -109,15 +112,15 @@ All site content is strongly typed, Git-versioned TypeScript under `src/data/` a
 - On `/menu`, initial render (default filter, empty search) must emit **all 14 categories and all 176 bilingual items directly in the static SSG HTML** for SEO and FCP—never gate initial menu rendering behind `useEffect` or client-only tabs.
 
 ### Stores (`src/data/stores.ts` & `src/types/store.ts`)
-- Holds the **5 active stores** (`STORES` / `ACTIVE_STORES`: `oakville` [flagship], `mississauga`, `thornhill`, `kingston`, `calgary`), `FLAGSHIP_STORE`, `RETIRED_STORE_SLUGS` (`["markham", "guelph", "toronto"]`), `getStoreBySlug`, and `getStoresByProvince`.
+- Holds the **3 active stores** (`STORES` / `ACTIVE_STORES`: `oakville` [flagship], `vaughan`, `calgary`), `FLAGSHIP_STORE`, `RETIRED_STORE_SLUGS` (`["markham", "guelph", "toronto", "mississauga", "kingston", "thornhill"]`), `getStoreBySlug`, and `getStoresByProvince`.
 - This single module drives the header dropdown, footer links, Home & `/locations` `StoreLocator`, `/store/[slug]` static params, `CafeOrCoffeeShop` JSON-LD, and `sitemap.ts`.
 - **Adding a store:** add the slug to `ActiveStoreSlug` in `src/types/store.ts`, add an optimized local WebP photo to `public/images/` with exact dimensions, and append the store entry to `STORES` in `src/data/stores.ts`.
 - **Retiring a store:** remove the slug from `ActiveStoreSlug` and `STORES`, add it to `RETIRED_STORE_SLUGS`, and add a permanent 308 redirect (`/store/<slug>` → `/locations`) in `next.config.ts`.
-- Omit `phone` when a store has no public phone line (e.g., Kingston); never emit empty strings or broken `tel:` links.
+- Omit `phone` when a store has no public phone line; never emit empty strings or broken `tel:` links.
 - Never link to defunct Google `.business.site` URLs.
 
 ### Gallery (`src/data/gallery.ts` & `src/types/content.ts`)
-- Holds **31 curated photos** (`GALLERY_PHOTOS`: 16 `drinks`, 8 `stores`, 7 `moments`), `HOME_GALLERY_HIGHLIGHTS` (8 photos), and `getGalleryPhotosByCategory`.
+- Holds **29 curated photos** (`GALLERY_PHOTOS`: 16 `drinks`, 6 `stores`, 7 `moments`), `HOME_GALLERY_HIGHLIGHTS` (8 photos), and `getGalleryPhotosByCategory`.
 - Every `GalleryPhoto` **must** specify the exact intrinsic `width` and `height` of the image file on disk so Next.js reserves layout space and preserves `CLS = 0`.
 - Exclude retired-store photography; always provide descriptive `alt` text.
 

@@ -128,7 +128,7 @@ export default function HomePage() {
             <p className="mt-5 max-w-xl text-base leading-relaxed text-cream/90 sm:text-lg">
               Canada&apos;s luxury Taiwanese tea bar—pairing organic estate-grown
               tea leaves with warm brown sugar tapioca, fresh fruit, and velvety
-              cheese foam across Ontario and Calgary.
+              cheese foam in Oakville, Vaughan, and Calgary.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3.5">

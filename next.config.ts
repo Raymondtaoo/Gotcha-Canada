@@ -23,6 +23,21 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/store/mississauga",
+        destination: "/locations",
+        permanent: true,
+      },
+      {
+        source: "/store/kingston",
+        destination: "/locations",
+        permanent: true,
+      },
+      {
+        source: "/store/thornhill",
+        destination: "/store/vaughan",
+        permanent: true,
+      },
+      {
         source: "/admin",
         destination: "/",
         permanent: true,
