@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FAF8F3;
+  --color-surface: #FFFFFF;
+  --color-surface-warm: #F2EFE6;
+  --color-matcha-900: #1B3420;
+  --color-matcha-800: #27492D;
+  --color-matcha-700: #35613C;
+  --color-matcha-500: #6E9A47;
+  --color-matcha-300: #A3C76D;
+  --color-matcha-100: #EBF3DF;
+  --color-boba-700: #8C4B1B;
+  --color-boba-500: #C67A34;
+  --color-boba-100: #FAECD8;
+  --color-ink: #1F241F;
+  --color-ink-muted: #525C53;
+  --color-border: #E3E0D5;
+}
+
+@theme inline {
+  --font-display: var(--font-fredoka), "Fredoka", ui-rounded, sans-serif;
+  --font-sans: var(--font-jakarta), "Plus Jakarta Sans", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+  }
+
+  :is(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+    outline: 2px solid var(--color-matcha-700);
+    outline-offset: 2px;
+  }
+}
+
+@utility no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
